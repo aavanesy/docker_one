@@ -18,4 +18,3 @@ RUN install2.r --error plotly
 RUN install2.r --error DT
 RUN install2.r --error leaflet.extras
 
-RUN sudo rstudio-server stop
