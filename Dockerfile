@@ -13,5 +13,9 @@ RUN install2.r --error scales
 RUN install2.r --error lattice
 RUN install2.r --error tidyr
 RUN install2.r --error shinyWidgets
+RUN install2.r --error shinydashboard
+RUN install2.r --error plotly
+RUN install2.r --error DT
+RUN install2.r --error leaflet.extras
 
 RUN sudo rstudio-server stop
